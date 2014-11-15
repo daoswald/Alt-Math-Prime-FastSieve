@@ -14,8 +14,7 @@ our @EXPORT    = qw(        );    # Export nothing by default.
 our $VERSION = '0.01';
 
 use Math::Prime::FastSieve::Inline
-    CPP     => 'DATA',
-    NAME    => 'Math::Prime::FastSieve';
+    CPP     => 'DATA', NAME    => 'Math::Prime::FastSieve';
 
 
 # No real code here.  Everything is implemented in pure C++ using

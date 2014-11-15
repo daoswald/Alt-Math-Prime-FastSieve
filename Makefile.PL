@@ -2,10 +2,9 @@
 use strict;
 use warnings;
 
-#use Inline::MakeMaker;
+use ExtUtils::MakeMaker;
 use lib 'inc';
 use Inline::Module::MakeMaker;
-use ExtUtils::MakeMaker;
 
 WriteMakefile(
     NAME             => 'Math::Prime::FastSieve',
